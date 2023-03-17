@@ -1,3 +1,4 @@
+# Codes for Lorenz system as a benchmark
 - Lorenz.m: the ode function for the lorenz system
 - generate_lorenz_data.m: the time series data generation
 - standard_RC.m: reproducing the dynamics reconstruction in the paper with a non-delayed RC
