@@ -48,6 +48,7 @@ trainoutput = Wout*rtrain;
 mse1=mean(mean((trainoutput-traindata).^2,2));
 
 % testing period
+r=rtotal(:,end);
 vv = trainoutput(:,trainlen);
 testoutput = [ ];
 for i = 1 : testlen
